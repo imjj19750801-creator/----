@@ -1,7 +1,7 @@
 # src/gradebook/core.py
 from typing import Any, Dict, List
 
-from gradebook.model import GradeBook
+from .model import GradeBook
 
 
 def grade_from_avg(avg: float) -> str:

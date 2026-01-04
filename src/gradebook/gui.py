@@ -22,7 +22,7 @@ from PyQt5.QtWidgets import (
     QWidget,
 )
 
-from gradebook.model import GradeBook
+from .model import GradeBook
 
 logger = logging.getLogger(__name__)
 
